@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  	<div class="container-fluid">
+  	  <div class="container-fluid">
+  	    <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+  	      <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Pastor Alemán&nbsp;</a> </li>
+  	      <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Bull dog</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="#paneTwo2" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Labrador</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="#paneTwo3" role="tab" id="hatstab3" data-toggle="tab" aria-controls="hats">Cocker</a> </li>
+  	      <!-- Dropdown -->
+  	      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Otras razas </a>
+  	        <div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Husky Siberiano</a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">American Bully</a> </div>
+          </li>
+        </ul>
+  	    <!-- Content Panel -->
+  	    <div id="clothingnavcontent1" class="tab-content">
+  	      <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+  	        <p><b>Los pastores alemanes se llevan bien con los niños y otras mascotas si crecen juntos, pero, tienden a dudar de la gente extraña, debido a sus instintos de guardianes.Se considera que esta raza es lista y fácil de adiestrar.</b></p>
+          </div>
+  	      <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+  	        <p>El bulldog inglés tiene un talante dulce y dócil. Fiable y predecible. Es una maravillosa mascota familiar y es cariñoso con casi todos los niños. Esta raza, centrada en las personas, exige activamente nuestra atención.</p>
+          </div>
+		  <div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab2">
+  	        <p>Por lo general, los labradores retrievers son excelentes perros de familia, siempre que tengas en cuenta que necesitan hacer ejercicio y recibir adiestramiento. Son perros criados para trabajar y trabajan duro, y les encanta que les asignen tareas, especialmente de rescate.</p>
+          </div>
+		  <div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab3">
+  	        <p>El Cocker spaniel conocido por ser generoso, llevadero y cariñoso y aún animado. Son generalmente considerados por ser buenos con los niños. Tienden a no ser agresivos con otros animales y con la gente, pero también significa que no son buenos perros guardianes.</p>
+          </div>
+  	      <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+  	        <p>Los huskies siberianos son clásicos perros del norte. Son inteligentes, aunque algo independientes y tozudos. Se sienten realizados con la compañía humana, aunque necesitan un adiestramiento firme y amable desde que son cachorros. Son perros criados para correr, y su amor por esta actividad en ocasiones puede superar a su amor por sus propietarios. Los huskies siberianos tienden a ser simpáticos con las personas, incluidos los niños.</p>
+          </div>
+  	      <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+  	        <p>Es un perro atlético, fuerte, muy musculado y poderoso, con una gran cabeza dominante y el cuerpo compacto que resulta algo intimidante. Nos encontramos ante una raza robusta de tamaño medio que cuenta con una mandíbula tremendamente potente y una cola no demasiado larga. </p>
+          </div>
+        </div>
+      </div>
+  	</div>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.0.0.js"></script>
+  <div class="container">
+    <div id="accordion1" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1">Schnocker</a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">Al provenir de razas tan inteligentes como el cocker o el schnauzer en miniatura, estos perros presentan unas capacidades mentales brillantes. Por ejemplo, destacan por tener una increíble memoria y aprender a una velocidad de vértigo.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1">Puggle</a> </h5>
+        </div>
+        <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+          <div class="card-body">El puggle se caracteriza por ser un perro sumamente cariñoso y sociable. Adora vivir en familia, compartiendo hogar con mayores y pequeños, así como con otras especies animales. No tolera la soledad, algo que ha de tenerse muy en cuenta si se pretende adoptar uno de estos perritos. </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1">Eurasier</a> </h5>
+        </div>
+        <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+          <div class="card-body">Si algo caracteriza a un eurasier es que es tremendamente adorable, pues su personalidad es cautivadora, ya que se trata de un perro cariñoso, equilibrado, calmado y realmente sociable. Así mismo, estamos ante una raza canina perfecta para una familia con niños, puesto que el eurasian adora la compañía, los juegos y ser el centro de todas la miradas.</div>
+        </div>
+      </div>
+	  <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree2" role="button" aria-expanded="false" aria-controls="collapseThree1">Bóxer</a> </h5>
+        </div>
+        <div id="collapseThree2" class="collapse" role="tabpanel" aria-labelledby="headingThree2" data-parent="#accordion1">
+          <div class="card-body">Los perros bóxer destacan por su carácter fiel, alerta, activo y amistoso. Son perros especialmente sensibles y bondadosos cuando están bien socializados, además, pueden llegar a ser especialmente protectores y pacientes con los niños, a quienes aman y cuidan. No obstante, cabe destacar que se trata de una raza poseedora de una gran fuerza física, por lo que se deben supervisar siempre los juegos con los más pequeños.</div>
+        </div>
+      </div>
+	  <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree3" role="button" aria-expanded="false" aria-controls="collapseThree1">Chow Chow</a> </h5>
+        </div>
+        <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordion1">
+          <div class="card-body">El carácter de la raza chow chow es calmado, reservado, independiente y tranquilo. No destaca especialmente por ser un amante del ejercicio, todo lo contrario, prefiere realizar pequeñas caminatas de vigilancia dentro su territorio y descansar mientras se asegura que ningún humano o perro extraño se aproxima.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
